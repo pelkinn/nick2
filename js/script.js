@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+	$('#open-nav').on('click', function(){
+		$('.nav-list').toggleClass('active');
+	});
+
+	$('.nav-item-child').on('click', function(){
+		$('.nav-item-child').removeClass('active-items');
+		$(this).addClass('active-items');
+	});
+
 	$('#header-slider').owlCarousel({
 	    loop:true,
 	    margin:10,
