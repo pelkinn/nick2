@@ -664,7 +664,7 @@ a {
   left: -30px;
   right: -30px;
 }
-.reviews .slider-nav-wrapper .nav-arrows div {
+.reviews .slider-nav-wrapper .nav-arrows button {
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -672,6 +672,7 @@ a {
   width: 15px;
   height: 20px;
   cursor: pointer;
+  border: none;
 }
 .news-client {
   width: 100%;
