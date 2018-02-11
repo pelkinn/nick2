@@ -26,7 +26,8 @@ var smartgridSettings = {
         },
         sm: {
             width: '750px',
-            fields: '5px' /* set fields only if you want to change container.fields */
+            fields: '5px', /* set fields only if you want to change container.fields */
+            offset: '10px'
         },
         xs: {
             width: '425px'

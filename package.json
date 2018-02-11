@@ -1,7 +1,6 @@
 {
   "name": "nick2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,14 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-less": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelkinn/nick2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pelkinn/nick2/issues"
+  },
+  "homepage": "https://github.com/pelkinn/nick2#readme",
+  "description": ""
 }
